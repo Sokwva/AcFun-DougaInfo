@@ -1,0 +1,529 @@
+{
+    "currentVideoId": 33364755,
+    "pctr": 0.02,
+    "commentCountRealValue": 99,
+    "groupId": "",
+    "bananaCountShow": "3598",
+    "stowCountShow": "103",
+    "giftPeachCountShow": "0",
+    "stowCount": 103,
+    "channel": {
+        "parentName": "鱼塘",
+        "parentId": 125,
+        "name": "新鲜事&正能量",
+        "id": 132
+    },
+    "likeCount": 744,
+    "hasHotComment": true,
+    "shareCountShow": "20",
+    "isDislike": false,
+    "shareCount": 20,
+    "picShareUrl": "https://m.acfun.cn/v/?ac=43724367&shareType=pic",
+    "danmakuCount": 79,
+    "currentVideoInfo": {
+        "priority": 0,
+        "ksPlayJson": {
+            "version": "1.0.0",
+            "businessType": 1,
+            "mediaType": 1,
+            "videoId": "088844e17237aaee",
+            "hideAuto": false,
+            "manualDefaultSelect": false,
+            "stereoType": 0,
+            "adaptationSet": [
+                {
+                    "id": 0,
+                    "duration": 1002430,
+                    "representation": [
+                        {
+                            "id": 1,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.m3u8?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVOwq6UwfJc3KCnzc9sKOc6q1P_WR11gqP8zWmE2bhE9FKMTP9RQqGiTFXj-Ram6dxODgDPhiUyfZOEnuKHzfIs43lJg2CKpFJMF7-bTnVzALBh0kBOiQiRpsBt7q0ekMwz0jXO3EwO7QGQJ3TPgsjA4c_OoFSX61tIr0vuUvNcqSoEugfbdisAN1vggeTZMRI6o73rYHg2LlAKaD6j1Rdok&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.m3u8?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVLJaUSOkWusvygq4m3WVwRJguIEvXCCw2e2GtUUp4b0OpIXgqOHS8MPoHWC-QIkvNym5fgAfPxXupxEeb_QOWUmkM_ib9NASWsyyViDc3Is-cdth04q3xmEAL8d_EDsBYGpmuNhTbGwBmnfvxxECMfmZ6Gp6rcqqCxPths_O-nFpVe_avz56_B7jtvJHjKUHaBqQAn8XJA5-_RPnUquEajQ&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.00000.ts?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVOz3BvC16JN3jNycKab0muhcZhg97RdRTybF0obBt0f5zHwIc_gUB8fEU4e6Ev-wAd6C9j9ZloKHqGGFXlTJkoXzho2P0wFenLPwy81XyKetjgP_PNgaDMn9SrAcgo4dBKX4IULHy_-KfjgsYn6p9HLPagu3RXd5MK-P3zJdzxkqVoM_jLyt7drIHAmyaLjMrTH0YWyskZmIGEzcSm4iUvc&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 6000,
+                            "avgBitrate": 3716,
+                            "codecs": "",
+                            "width": 1920,
+                            "height": 1080,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "1080p+",
+                            "qualityLabel": "1080P+",
+                            "comment": "088844e17237aaee/HLS_1080P_H264_6M_1",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 2,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-db723ab08199eca6927dc92288f1ea31-hls_1080p_2.m3u8?pkey=ABBsPmBpIYCFyRpWpmhd63XTLnnOCVHl4hxAK04plo4nZRSMp5JnC7BV1CzjaqM17Z0etw_T6-MTBj01onzZ-Vs7-4tl-qx63QKtCF7toltMuuveC9CzjHW0FXkHgwWnlQzSe2_YCu71MlVCZ7THKiQMcdlTgAEswT7NQqLrfaUbNveDr18O23Y3b5DD0-2MjB17Si9fztlvxUVefRnqtsIET6c85gWmzOcQNpTjjjo0aLBNuUyE-Htf5D-Y97YUAGo&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-db723ab08199eca6927dc92288f1ea31-hls_1080p_2.m3u8?pkey=ABBsPmBpIYCFyRpWpmhd63XTLnnOCVHl4hxAK04plo4nZUQAWTmJ1PtvAWaCIqAeQe0iPoZJm2imL0ku8rmA2xT4SGzay_09oX1bJpCfWcI97KZNNMxwRNVAplo6n9Lp5m8UkXHtPdniKj9nQiWn0lz0jlqJ6XeP5B4fwBtSbmiKJvRSC7iRJ0zUQSSSau9R-_hnCGdNttWkAhx7KeKM7zwsqN84srswMQoxG0gfa0jxy7ehSxpXp6YBNigPkn-jTkk&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-db723ab08199eca6927dc92288f1ea31-hls_1080p_2.00000.ts?pkey=ABBsPmBpIYCFyRpWpmhd63XTLnnOCVHl4hxAK04plo4nZSk3cwnA0gmNszuPUouGRgBHJerDhhGYJrvLOhaw1IcY8KtXBAGEus1LfAbaPugZMvYo1v6xDYzgBpJBD2u4_dHttjB9WrYs_-kTMErMhKMjv7pexHIl-2k_d5Uksg4k-zOzH7DurODnss6oIZorkfSi76iixWmZQtfXclrOXgy1lBw2nB6MSeGyU5bTaL6CVzfazB-eu_UzfI-QH9nZWtc&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 3000,
+                            "avgBitrate": 2454,
+                            "codecs": "",
+                            "width": 1920,
+                            "height": 1080,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "1080p",
+                            "qualityLabel": "1080P",
+                            "comment": "088844e17237aaee/HLS_1080P_2",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 3,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-653c43af2dcff1cb9dece85f0bfa69e4-hls_720p_2.m3u8?pkey=ABAOwIZ4giewpmK8bYvOQLjP0IiG4aY0x_oCe3uMYvWt3luZEoZhGpagYsVAJ0QwRc2nly5j2JCrtouLwH_y9T_ugan4IEMqZNwVwYNbr2Bs2T6DPz05qBg0aYgEejZE5WgdFocOKs-l0GzB-c7fWW-cuMoXHHUwWzVOIkGntE8TNGP2hDJbgEj2JWIQdib7WjJ_Kk04jGlHwOGyGQWUSspkiXuvmA5CrM1zWHMB8fK-WghTh7Pf5-KvuhuhDAxEYGg&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-653c43af2dcff1cb9dece85f0bfa69e4-hls_720p_2.m3u8?pkey=ABAOwIZ4giewpmK8bYvOQLjP0IiG4aY0x_oCe3uMYvWt3hpR-9jMSUArC4c_bMK94BMX9L9sgd1TCMjUYK19nJPQuw-LgLUDO--dsF4BItVUNDvzJY0WC8OiazF_4NL73SnuZhepN86ScBa7Z7LQKGagmqiSQjVLz8CHFgw9_FeyNpqo8PYrzzZOPIcgKGzp7_vo3HaLGtpsPf_vz2OaMI1auTFmCLcdIukDYjvW5j0D8dCwyAiqAJEvnTOIHpv8Xko&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-653c43af2dcff1cb9dece85f0bfa69e4-hls_720p_2.00000.ts?pkey=ABAOwIZ4giewpmK8bYvOQLjP0IiG4aY0x_oCe3uMYvWt3oR9O5rO1uVKWraOxf1WniWCAXJ-tBApNreZpS17XZsztJ_WMB5QEmjCaGMznNjHBZLghAW5jIpHp3GwqRZPlE_892s0dvwKatMAkxRayWSjC75nDx0ZDPElov2HpzQjsYOlG_qYdPoHoBllbVQe91a_YPHBfwZVk4NLP-mLs1henlavVLbD28g6mt02SyMsW2lU-0C0jtmIvuMKp5C7_hE&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 2000,
+                            "avgBitrate": 1381,
+                            "codecs": "",
+                            "width": 1280,
+                            "height": 720,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "720p",
+                            "qualityLabel": "720P",
+                            "comment": "088844e17237aaee/HLS_720P_2",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 4,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-744c17b42cbc84f65de42e525006f0f9-hls_540p_2.m3u8?pkey=ABCG5kMQw81_lcJCA83pTUujXjaRAhQdF0Z4DsBlP7ciwhVgPmYI55Hc7Mhcouuu79KMjz9NxRx3-GHivPb4IEVLwVr8_wylDx9NZ29Of1PFIbNL5dOVESP-PYvy-MfIqe7UfmctyDF7PmKoTJqud91BDZeCHpYnOHewa-K-FcolvJXskL9l3JgRABlpggDUAuRUdz4_SfaQlk5kk8xKCXC6VrPeOBE3NWGWAfvVKJwB5nvowghtA-03sX_5NywEF8E&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-744c17b42cbc84f65de42e525006f0f9-hls_540p_2.m3u8?pkey=ABCG5kMQw81_lcJCA83pTUujXjaRAhQdF0Z4DsBlP7ciwhVLQnl38sZNj1QUeMiQTkoDgdwUY5E6-C_PTloXFCm50v_u6dHnyyKgPBWX63Qv9AWvnGTJyZDRS3s4PSW9uF6WwC5_gn6Tq-YAAoVrA8PmE02V0KMswZqBeEz0fXR_D1J4_-cib_uhH7KROhgZ_0GrCoWJjwQ_nLhWTSN_AVMRUkDJ7amuHaDQmkDa1nLD5OAV5i-coADlqkQ5IAj8QAA&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-744c17b42cbc84f65de42e525006f0f9-hls_540p_2.00000.ts?pkey=ABCG5kMQw81_lcJCA83pTUujXjaRAhQdF0Z4DsBlP7ciwrKe4Bk2iN0zziv6tjinoQ-U5uAQhfPdLgSORK151AFNowfq9MQDfUY26cGbQdG5-DvaN2yPuhItI9E1NokBFJrG492MdW-CdO4UQ-Vklh_gjQfcpn3udkw34wdDZ208ORK7eAH86tg_U5sqvfQ8uLP5de_94UuI3BUyVoaXA75eG5JMrtTEd_bhmqSjs0JbKIytYaAKRccgMk3P-ChAlco&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 900,
+                            "avgBitrate": 766,
+                            "codecs": "",
+                            "width": 960,
+                            "height": 540,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "540p",
+                            "qualityLabel": "540P",
+                            "comment": "088844e17237aaee/HLS_540P_2",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 5,
+                            "url": "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-83cf227725ef8563570fa0f4f92a166b-hls_360p_2.m3u8?pkey=ABBcaT1w8eWClxqlkCGO8BmB9kHzffusXtKR9Z_sKrFnColYErtinAImsJyObqNG34XvtkWz9R11YgOpT2K2FbKdulT_LiHToGZl4zcGzl4UE0scZNIl-aXMzelDXDc4eah5z8z9UufZbogA6CqY6OINOZExsKgCFvS9AhJQqCGViwasY30r7Vq0K-KbFq5QDs2IjTLTgEnEFm-VwTpOkTCZkSi4PxXao6UhE7yVJ35kGcJa7YAM7DVm6G6_cZBThqk&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-83cf227725ef8563570fa0f4f92a166b-hls_360p_2.m3u8?pkey=ABBcaT1w8eWClxqlkCGO8BmB9kHzffusXtKR9Z_sKrFnCpdq8QHRNZvIMt10fEdb08okz5g0Ck_eV7WLsbxWcN7CTSMhktLQGT9DiTyzTGZZLCkvLszFIxQL9MnWssJicHMv4FDHleH-irMDJuXAgy0kW3wanKpqd-Dye9SBTOogEkxcrro5IAqvwXNiRuOp2GNW2C8FH7DibTkPJWPjluzzzRPNeylPh5DtXRbiHq3-Aqyfm_KKA2CL8rKktnllFmg&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-83cf227725ef8563570fa0f4f92a166b-hls_360p_2.00000.ts?pkey=ABBcaT1w8eWClxqlkCGO8BmB9kHzffusXtKR9Z_sKrFnCphiwiMAZGYqxsJhQiTSWuQ0dwYGo5X7xkJn6cWpfHjmAJzFNIit4S5iJWD_LzJ_RKCSkIbJ596nBxgO5J8c3-XCVHR0_2SIv2t3C1Jq0P454i6FuqxsSjS385EfqJDP5JDcg7DNobrUA_IlC83bSFPG9NVxfIHd8oTrvnbEDhO-NI8o7lpuy_I1mulnXtzL678rcFoyLsJV3IyqW8dpG_U&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 500,
+                            "avgBitrate": 456,
+                            "codecs": "",
+                            "width": 640,
+                            "height": 360,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "360p",
+                            "qualityLabel": "360P",
+                            "comment": "088844e17237aaee/HLS_360P_2",
+                            "hdrType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "ksPlayJsonHevc": {
+            "version": "1.0.0",
+            "businessType": 1,
+            "mediaType": 1,
+            "videoId": "088844e17237aaee",
+            "hideAuto": false,
+            "manualDefaultSelect": false,
+            "stereoType": 0,
+            "adaptationSet": [
+                {
+                    "id": 0,
+                    "duration": 1002430,
+                    "representation": [
+                        {
+                            "id": 1,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.m3u8?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVFKXe4hmeOXhpAzBRJNQCr2q2S7yL3O0mIZiYpms4H1O_kH6B7WVXxWbtWVIk0KzsgUMygTPhOSpH5eFD1qomx3Wa5gRmfdQ9B1zsE8og7ePp4MuIXTcqA0AFnmYTS9RrPT07JQUymexrYjYQM_peYOHV2vxHg-06rfHVUIdO1OgKMl1HtCaahoA53r3LhlmnJtlQtqNRT2EA14VMzI4qU0&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.m3u8?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVD4o6OLKKgCKYLzeye0i9H4DQJUmDBfySCQY4TF-RXuJQOqmJfRjLgPkZB4xBfqA_LI5ur5sUpO-JtjCMRniYNhnmpZttZDAjWl_wNFgbo7f5cw5zKaJXnjLuAG8iPbY5vsZuZdxRL9DoMzXA-yYqe5e7agiyT2scTtb2AeMWOmcT2BdlnRLFzasR3jQDsfLyy97AnhuP2iMAQ7bPlJE2OY&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-522ca8b5ff9120fbf29fbc7aede943c2-hls_1080p_h264_6m_1.00000.ts?pkey=ABDMkU7nEerSoNpcBPaxlajFRucbYaOiOG1V7F5FQAKlVM6lVR31KU_Csh3jehYQr_l0_4lbHryipVnDFjr38zPyP05z4yQIRw051PYqaKvVwV3vP8uJiC3qthbYCwW55Kl4uDW-T__MnypvBzUT8K8yKQm05PrXZWtTOtKABOlzkZSMCmYyL7Pk8vCeuAngiO0RiauILvf8htCkaClaCvPogGuqHPhPuk4hxf_a2GjFJ7eZO7Pg2MvED54KuNQpDLc&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 6000,
+                            "avgBitrate": 3716,
+                            "codecs": "",
+                            "width": 1920,
+                            "height": 1080,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "1080p+",
+                            "qualityLabel": "1080P+",
+                            "comment": "088844e17237aaee/HLS_1080P_H264_6M_1",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 2,
+                            "url": "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-ea0dcd1c2a55f63368a4ac23e4315487-hls_1080p_hevc_1.m3u8?pkey=ABAqLJsfWVZA1IZVIV_rceaa-PQxHvC1-czeV_W_aFtJmTYt-ZgGZdzEgBxHbrtSmnwRGyxq_wPbqXBELBrH9X0qfdn7iSmcmvi9vpITrcFzqO75L5KjKErn3PaPR6SSHOLXY6_wG5_dKJ3YlaZ-deyK_Y8j0_Hq9aY_XeD-R7aUKUwP6AG000VWGvSJIUmyTeZqihERfQLpoDtDAlBVrxGRoB6zUFm8rEeR-j0W4VVAt-e_NvbOmWXt2NP9IkrA1pA&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-ea0dcd1c2a55f63368a4ac23e4315487-hls_1080p_hevc_1.m3u8?pkey=ABAqLJsfWVZA1IZVIV_rceaa-PQxHvC1-czeV_W_aFtJmbhiR6d76dDKUWfFx8Bxu-4iOEIg5-jINq53D2DnZn9g2hgIr1TUlgsHOzIqgcrNSywwZWfB8-SnK0SKuYmFjK7c2uf5btLGB8V0FHpTw0VzIh8jIdCItiz-ejmzYGFFJlm_0AFpV-KkOxPlv2QLwhTKoZEdI8i_w8Wehx8Q-3bYFTOKE2q-YGwTKPk6p5dgr_t5ySv6UdQYyAdLrRrFu34&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-ea0dcd1c2a55f63368a4ac23e4315487-hls_1080p_hevc_1.00000.ts?pkey=ABAqLJsfWVZA1IZVIV_rceaa-PQxHvC1-czeV_W_aFtJmS8VrrXbsS8Z2Bty2T4YJeFasPE0IJpJ2o5pq3Nzm1V7X0WFGUmnwe5wn_hX8Fd8XtVwdpN3fsEp1EAAhCCg20rN6RDW-xBrDqD3flsak0YXd8BG0Db8WOzhOMQpe0-wlhKGSpmxrw7SQHXLYZVZmzbBl5z575p3zdLOtQocpjzonNVec3A4wtIV1vMeZrv6Zyualzq10G8Lx7cQjEQ_J_k&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 3500,
+                            "avgBitrate": 984,
+                            "codecs": "",
+                            "width": 1920,
+                            "height": 1080,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "1080p",
+                            "qualityLabel": "1080P",
+                            "comment": "088844e17237aaee/HLS_1080P_HEVC_1",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 3,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-4e39448cb291144d292e3676467a7582-hls_720p_hevc_1.m3u8?pkey=ABC0ClDZEapOQkxU0qD0qVpGlEpSovdxspPKXZWdXYpbe-BM0b2xFg_PHZISIwNRPQQ2K7mEVKtUdY1sW05rH07BXyJpI602OMTfz4AWuERDBnLi0Hf1xDK8cZDSRc8Us8v6CAWLwmbtof5gracu1tQuOG2MClAVxnBE6Rx6IqCAzyQX73hqQIIcg-03OKdQoDHReIG_yDLaEER1UOGXDwRtnAGuV9xeFkGY_2lixCfzhXjpBRNvVRzpOZC_Rg-F4Rg&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-4e39448cb291144d292e3676467a7582-hls_720p_hevc_1.m3u8?pkey=ABC0ClDZEapOQkxU0qD0qVpGlEpSovdxspPKXZWdXYpbe23VrZhVKOFgqoOVGXon-6iNoKi2C0cSJnpipGnJHVp7RI0IleiGunIYaWOgSWMbgV52viiFnr18rIEtGtlF3iB8kmrKK4jyL-CIJx5mJCVwMtZEOk950Pvilb-5ApR_vFNmm0Pu2Q0U_67EEZ4MgDdovEfs_binv3q4WEdVP292ogIkCnm0IujpagFKRo_TbNpOCmqxgnRsStiCH6hfVZM&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-4e39448cb291144d292e3676467a7582-hls_720p_hevc_1.00000.ts?pkey=ABC0ClDZEapOQkxU0qD0qVpGlEpSovdxspPKXZWdXYpbe6RwJ3-0b2W8xJu1LBIcLVcFm0yZtK7DneQ_W3BkbgY9yuy06L1vlcxniixw55mLUpwFOwffLabFZrGkPCcPb5wcroaJEM9gA8VXVLTOuE8Rig49SapKBT1QKoBiO9w06_ifIM7P6CBnf8r4EhZrcN0n0Yg5oYFAJOqJurWcOk1Ru-zRYzcYIJ-sHYVEDbDRDBGVsJ3W2-0I8dXIG8N6KtY&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 2000,
+                            "avgBitrate": 711,
+                            "codecs": "",
+                            "width": 1280,
+                            "height": 720,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "720p",
+                            "qualityLabel": "720P",
+                            "comment": "088844e17237aaee/HLS_720P_HEVC_1",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 4,
+                            "url": "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-63d2153e29da7161d51bfd926e7bec27-hls_540p_hevc_1.m3u8?pkey=ABDUtGZ1OI6irwqz7zL32_O2Q8TRkLt_Nmw-oMr-Yt4Vnalpv_VvmEW3kqcyfbpYx2WjgrZtsDazcrftVfkCjYyKgbg8QG5b_MFHq2blzHYZIRhg45Vw6mCXInYstwoqmVwmruDzkO3zOJQ0xuUYxP0tDlYm4eqvfBWwmCj-hK2ebLINTA-LiB-WMCmjYKj6LOi5Nq87KpNj04PJ8me_C1cUulpPW7oXIC9q2fDFMdsCyBut1JVsnJ8XCIchFNEDzn4&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-63d2153e29da7161d51bfd926e7bec27-hls_540p_hevc_1.m3u8?pkey=ABDUtGZ1OI6irwqz7zL32_O2Q8TRkLt_Nmw-oMr-Yt4VnU5mOUW3jM_0s5tt7rZ45jLGE3423mH2ZHHoFsnka2v2_yeedyr8eR7JmUZze44bC4qNhuiS13h_09E19JVrDSF6SPhZfip3yqaQwINjRgediH_irOEujeEEOH9zD7_SEjkmtfDKi6f1icadPG3daKWebA2IJBjEzlaRseGs9S3UULh5OC7R_bZuW-OFdIvkvF_dsabHgQ0HJQHbvxFa13A&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-63d2153e29da7161d51bfd926e7bec27-hls_540p_hevc_1.00000.ts?pkey=ABDUtGZ1OI6irwqz7zL32_O2Q8TRkLt_Nmw-oMr-Yt4VnfqTQnAmVF9uVOBf3t4_eonuSFkVCfj-ceidvBenEVTN5EoFgLfv1dHabjzcl4Z9WPpyL8nOfIioaVbnQQZKN5sHRsf1-nBHMkCAmI0D04sAjjfO6Iqp0qkOBI8_bkrOBMrLXNUlTAv6UvC5rzHiSAQw6cg8N6h7n6eGFFUyc6G780Go-bgSBAIYandKYqZ-0VpaQHnrfyGSCNc9r54RXqA&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 800,
+                            "avgBitrate": 362,
+                            "codecs": "",
+                            "width": 852,
+                            "height": 480,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "540p",
+                            "qualityLabel": "540P",
+                            "comment": "088844e17237aaee/HLS_540P_HEVC_1",
+                            "hdrType": 0
+                        },
+                        {
+                            "id": 5,
+                            "url": "https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-b563b23d987568218b98a796f1c8d6f8-hls_360p_hevc_1.m3u8?pkey=ABDPw17Wvzq7Ssxwb0DS6HTbnNYwskxboOyfBEtZxU-Qag4f_ELrCA0icedWzt71JUQsazSI1KT5hx9ESscb3F9csauq1_Hrx7Jel71pqhQDEFnde1mSAE6gpGxU-xl55yBRsP0YFVIxwlBJE8gjB4JBt2Md4Qte35-hX9vpIiJLDbRXrxwKlHQRaTh-Gs27TWSd90ix3b0voIBOeHcMB6Lnwhn-1hxs2hm9VP4nTq8YF5NgCGjk9p_akR3a84_T6bk&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "backupUrl": [
+                                "https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-b563b23d987568218b98a796f1c8d6f8-hls_360p_hevc_1.m3u8?pkey=ABDPw17Wvzq7Ssxwb0DS6HTbnNYwskxboOyfBEtZxU-QapiMKee_YCPi90itQ6NxM0DzBvd8Y92HUCh6QQAbuaM0K0quWjdnoa1lfWUiiwTSOslsxJ0kUcXzG5rdtFwmBl0ix-IqvpCYY-s7RFlpSxYhbk1aHuG60QiyJE1ZhlSlF7bR1upZleByGAweNBYD_BcmhE4zbbkdKwGiZZLpqnEfG9xQOF_jHdT-SQvUCgKaayhdC10RRyTtCUucbGSXITc&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr"
+                            ],
+                            "m3u8Slice": "#EXTM3U#EXT-X-VERSION:3#EXT-X-TARGETDURATION:5#EXT-X-MEDIA-SEQUENCE:0#EXTINF:5.0,https://ali-safety-video.acfun.cn/mediacloud/acfun/acfun_video/088844e17237aaee-b563b23d987568218b98a796f1c8d6f8-hls_360p_hevc_1.00000.ts?pkey=ABDPw17Wvzq7Ssxwb0DS6HTbnNYwskxboOyfBEtZxU-Qaj5_3gO_TNxUZZBHolbQkW2LLY8aQ7azHbHpuzd6IALxu76y0Vn3JS6eJQGwk6e6tKxE5yc7XNEeGAxGBI_3mV-4ndwXma3puouzHUJhF0RXb2v5f44Tc0-JHUle3OnQ6jh816eXpuPHPFyjD9EfITcF8QJtBS9_jvFNLNzn-W2Qn0GdiyXSqmHDABX2FKWV4HLhnuXQaghZcuuLQmgeBpc&safety_id=AAIzMTdyD3mdkAgYaIU0cxyr",
+                            "maxBitrate": 400,
+                            "avgBitrate": 288,
+                            "codecs": "",
+                            "width": 640,
+                            "height": 360,
+                            "frameRate": 30.0,
+                            "quality": 1.0,
+                            "qualityType": "360p",
+                            "qualityLabel": "360P",
+                            "comment": "088844e17237aaee/HLS_360P_HEVC_1",
+                            "hdrType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "playDomainInfo": [
+            {
+                "url": "ali-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "",
+                "freeTrafficCdn": false
+            },
+            {
+                "url": "tx-free-imgs2.acfun.cn",
+                "freeTrafficProductAbbreviation": "K",
+                "freeTrafficCdn": true
+            },
+            {
+                "url": "tx-free-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "K",
+                "freeTrafficCdn": true
+            },
+            {
+                "url": "tx-safety-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "",
+                "freeTrafficCdn": false
+            },
+            {
+                "url": "ali-safety-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "",
+                "freeTrafficCdn": false
+            },
+            {
+                "url": "tx-safety-free-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "K",
+                "freeTrafficCdn": true
+            },
+            {
+                "url": "tx-video.acfun.cn",
+                "freeTrafficProductAbbreviation": "",
+                "freeTrafficCdn": false
+            }
+        ],
+        "title": "2月7日",
+        "danmakuCountShow": "79",
+        "userPlayedSeconds": 1002,
+        "sizeType": 1,
+        "danmakuGuidePosition": 10000,
+        "sourceStatus": 3,
+        "durationMillis": 1002315,
+        "uploadTime": 1707314232738,
+        "visibleType": 1,
+        "danmakuCount": 79,
+        "fileName": "2月7日",
+        "isKsManifest": true,
+        "transcodeInfos": [
+            {
+                "qualityType": "1080p+",
+                "sizeInBytes": 465628735,
+                "hdr": false
+            },
+            {
+                "qualityType": "1080p",
+                "sizeInBytes": 307495402,
+                "hdr": false
+            },
+            {
+                "qualityType": "720p",
+                "sizeInBytes": 173044478,
+                "hdr": false
+            },
+            {
+                "qualityType": "540p",
+                "sizeInBytes": 95982672,
+                "hdr": false
+            },
+            {
+                "qualityType": "360p",
+                "sizeInBytes": 57138510,
+                "hdr": false
+            }
+        ],
+        "id": "33364755"
+    },
+    "viewCountShow": "6795",
+    "dougaId": "43724367",
+    "commentCountTenThousandShow": "99",
+    "coverImgInfo": {
+        "width": 1146,
+        "height": 716,
+        "size": 947050,
+        "type": 1,
+        "animated": false,
+        "thumbnailImage": {
+            "cdnUrls": [
+                {
+                    "url": "https://tx-free-imgs2.acfun.cn/kimg/EJvM1y8qPgoFYWNmdW4SBWltYWdlGi40MzYwODgzMl85ODkxNGViNWNjYzA0M2ExYWM2Yjc4NDc0YTgwOGI2YS5qcGVn.webp",
+                    "freeTrafficProductAbbreviation": "",
+                    "freeTrafficCdn": false
+                },
+                {
+                    "url": "https://ali-imgs.acfun.cn/kimg/EJvM1y8qPgoFYWNmdW4SBWltYWdlGi40MzYwODgzMl85ODkxNGViNWNjYzA0M2ExYWM2Yjc4NDc0YTgwOGI2YS5qcGVn.webp",
+                    "freeTrafficProductAbbreviation": "",
+                    "freeTrafficCdn": false
+                }
+            ],
+            "animated": 1
+        },
+        "expandedImage": {
+            "cdnUrls": [
+                {
+                    "url": "https://tx-free-imgs2.acfun.cn/kimg/EC4qPgoFYWNmdW4SBWltYWdlGi40MzYwODgzMl85ODkxNGViNWNjYzA0M2ExYWM2Yjc4NDc0YTgwOGI2YS5qcGVn.webp",
+                    "freeTrafficProductAbbreviation": "",
+                    "freeTrafficCdn": false
+                },
+                {
+                    "url": "https://ali-imgs.acfun.cn/kimg/EC4qPgoFYWNmdW4SBWltYWdlGi40MzYwODgzMl85ODkxNGViNWNjYzA0M2ExYWM2Yjc4NDc0YTgwOGI2YS5qcGVn.webp",
+                    "freeTrafficProductAbbreviation": "",
+                    "freeTrafficCdn": false
+                }
+            ]
+        },
+        "thumbnailImageCdnUrl": "https://tx-free-imgs2.acfun.cn/kimg/EJvM1y8qPgoFYWNmdW4SBWltYWdlGi40MzYwODgzMl85ODkxNGViNWNjYzA0M2ExYWM2Yjc4NDc0YTgwOGI2YS5qcGVn.webp"
+    },
+    "commentCount": 99,
+    "coverUrl": "https://tx-free-imgs.acfun.cn/newUpload/43608832_98914eb5ccc043a1ac6b78474a808b6a.jpeg?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+    "disableEdit": true,
+    "createTimeMillis": 1707316529732,
+    "superUbb": true,
+    "shareUrl": "https://m.acfun.cn/v/?ac=43724367",
+    "status": 2,
+    "isFavorite": false,
+    "isLike": true,
+    "recoReason": {
+        "desc": "",
+        "href": "https://www.acfun.cn/rank/list/#cid=-1;range=1;pcid=-3",
+        "tag": "综合榜Top3",
+        "layoutType": 0,
+        "descType": null,
+        "type": 11
+    },
+    "description": null,
+    "title": "梅西不踢球？那我们就量产五纳米祛祛邪吧！",
+    "belongToSpecifyArubamu": false,
+    "result": 0,
+    "originalDeclare": 1,
+    "videoList": [
+        {
+            "priority": 0,
+            "title": "2月7日",
+            "danmakuCountShow": "79",
+            "userPlayedSeconds": 1002,
+            "sizeType": 1,
+            "danmakuGuidePosition": 10000,
+            "sourceStatus": 3,
+            "durationMillis": 1002315,
+            "uploadTime": 1707314232738,
+            "visibleType": 1,
+            "danmakuCount": 79,
+            "fileName": "2月7日",
+            "id": "33364755"
+        }
+    ],
+    "isThrowBanana": false,
+    "viewCount": 6795,
+    "bananaCount": 3598,
+    "likeCountShow": "744",
+    "coverCdnUrls": [
+        {
+            "url": "https://tx-free-imgs.acfun.cn/newUpload/43608832_98914eb5ccc043a1ac6b78474a808b6a.jpeg?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+            "freeTrafficCdn": true
+        },
+        {
+            "url": "https://imgs.aixifan.com/newUpload/43608832_98914eb5ccc043a1ac6b78474a808b6a.jpeg?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+            "freeTrafficCdn": false
+        }
+    ],
+    "giftPeachCount": 0,
+    "isRewardSupportted": true,
+    "commentCountShow": "99",
+    "durationMillis": 1002315,
+    "host-name": "hb2-acfun-kce-node180.aliyun",
+    "tagList": [
+        {
+            "name": "科研",
+            "id": "178710"
+        },
+        {
+            "name": "明星",
+            "id": "965"
+        },
+        {
+            "name": "香港表演赛",
+            "id": "1079144"
+        },
+        {
+            "name": "足球",
+            "id": "60"
+        },
+        {
+            "name": "梅西",
+            "id": "3123"
+        }
+    ],
+    "danmakuCountShow": "79",
+    "createTime": "19小时前",
+    "user": {
+        "action": 3,
+        "href": "43608832",
+        "headCdnUrls": [
+            {
+                "url": "https://tx-free-imgs.acfun.cn/FotlRf3RFDeUhYViuRTd81UfRCs6?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+                "freeTrafficCdn": true
+            },
+            {
+                "url": "https://imgs.aixifan.com/FotlRf3RFDeUhYViuRTd81UfRCs6?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+                "freeTrafficCdn": false
+            }
+        ],
+        "isJoinUpCollege": true,
+        "followingCountValue": 9,
+        "contributeCountValue": 250,
+        "fanCount": "3.0万",
+        "socialMedal": {},
+        "avatarImage": "https://tx-free-imgs.acfun.cn/cms/2020_05_29/1590740898294.png?imageMogr2/auto-orient/format/webp/quality/80!/ignore-error/1",
+        "userHeadImgInfo": {
+            "width": 280,
+            "height": 280,
+            "size": 49233,
+            "type": 0,
+            "animated": false,
+            "thumbnailImage": {
+                "cdnUrls": [
+                    {
+                        "url": "https://tx-free-imgs2.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBCbzNcv.webp",
+                        "freeTrafficProductAbbreviation": "",
+                        "freeTrafficCdn": false
+                    },
+                    {
+                        "url": "https://ali-imgs.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBCbzNcv.webp",
+                        "freeTrafficProductAbbreviation": "",
+                        "freeTrafficCdn": false
+                    }
+                ],
+                "animated": 1
+            },
+            "expandedImage": {
+                "cdnUrls": [
+                    {
+                        "url": "https://tx-free-imgs2.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBAu.webp",
+                        "freeTrafficProductAbbreviation": "",
+                        "freeTrafficCdn": false
+                    },
+                    {
+                        "url": "https://ali-imgs.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBAu.webp",
+                        "freeTrafficProductAbbreviation": "",
+                        "freeTrafficCdn": false
+                    }
+                ]
+            },
+            "thumbnailImageCdnUrl": "https://tx-free-imgs2.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBCbzNcv.webp"
+        },
+        "isFollowed": false,
+        "isFollowing": true,
+        "avatarFrame": 502,
+        "contributeCount": "250",
+        "avatarFramePcImg": "https://imgs.aixifan.com/cms/2020_05_29/1590740898294.png",
+        "avatarFrameMobileImg": "https://imgs.aixifan.com/cms/2020_05_29/1590740882816.png",
+        "comeFrom": "海南,三亚",
+        "sexTrend": 0,
+        "verifiedTypes": [
+            5
+        ],
+        "headUrl": "https://tx-free-imgs2.acfun.cn/kimg/bs2/zt-image-host/ChQwODgzOWNmMzA0MTBkZGJhYmI3ZBCbzNcv.webp",
+        "fanCountValue": 30067,
+        "followingStatus": 2,
+        "nameColor": 2,
+        "followingCount": "9",
+        "gender": -1,
+        "name": "岩论yantalk",
+        "signature": "一个专注于时事内容解析分享的up主。",
+        "id": "43608832",
+        "nameStyle": "color: #964CFD"
+    },
+    "mkey": "AAHewK3eIAAzMDg3NTc2OTQCARAAMEP1uwESVyJjUAAAAD2plNoNGCb07JyGNq%2B0uZv2AHHpPHxPDQHLQ8eQLbBchVnBRCWe30lqep7R2wcf%2BI%2FUZqJPKcjY1j8lJ0JCaCOaDNuwKGTYRlgEVs99jyRo",
+    "priority": 0
+}
