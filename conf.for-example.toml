@@ -1,0 +1,17 @@
+[Commen]
+LogLevel = "info"
+
+[Server]
+Address = "127.0.0.1"
+Port = "8094"
+Mode = "release"
+
+[Cache]
+Enable = true
+ServerType = "redis"
+Host = "173.16.23.5"
+Port = "6379"
+Prefix = "acfun-dougaInfo/"
+UserName = ""
+Password  = ""
+ExpireDuration   = 60
