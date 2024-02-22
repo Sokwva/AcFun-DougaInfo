@@ -35,12 +35,12 @@ type DougaInfo struct {
 	CoverImgInfo                CoverImgInfo     `json:"coverImgInfo"`
 	CoverURL                    string           `json:"coverUrl"`
 	DisableEdit                 bool             `json:"disableEdit"`
-	CreateTimeMillis            int64            `json:"createTimeMillis"`
+	CreateTimeMillis            uint64           `json:"createTimeMillis"`
 	SuperUbb                    bool             `json:"superUbb"`
 	ShareURL                    string           `json:"shareUrl"`
 	Status                      int              `json:"status"`
 	RecoReason                  RecoReason       `json:"recoReason"`
-	Description                 interface{}      `json:"description"`
+	Description                 string           `json:"description"`
 	BelongToSpecifyArubamu      bool             `json:"belongToSpecifyArubamu"`
 	Result                      int              `json:"result"`
 	OriginalDeclare             int              `json:"originalDeclare"`
@@ -195,12 +195,12 @@ type CoverImgInfo struct {
 	ThumbnailImageCdnURL string         `json:"thumbnailImageCdnUrl"`
 }
 type RecoReason struct {
-	Desc       string      `json:"desc"`
-	Href       string      `json:"href"`
-	Tag        string      `json:"tag"`
-	LayoutType int         `json:"layoutType"`
-	DescType   interface{} `json:"descType"`
-	Type       int         `json:"type"`
+	Desc       string `json:"desc"`
+	Href       string `json:"href"`
+	Tag        string `json:"tag"`
+	LayoutType int    `json:"layoutType"`
+	DescType   int    `json:"descType"`
+	Type       int    `json:"type"`
 }
 type VideoList struct {
 	Priority             int    `json:"priority"`

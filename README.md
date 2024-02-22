@@ -7,3 +7,12 @@
 
 ## 介绍
 🍰AcFun-DougaInfo 用于获取AcFun站点上相关的稿件信息。
+
+## 备注
+ ```bash
+ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative .\server\protoLib\full.proto
+ ```
+
+ ```bash
+ goverter gen ./server/protoLib/
+ ```

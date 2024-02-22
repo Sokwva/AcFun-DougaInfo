@@ -1,0 +1,284 @@
+syntax = "proto3";
+
+option go_package="./;rpcproto";
+
+service Get {
+    rpc GetDougaInfo (Acid) returns (DougaInfo);
+}
+
+message Acid {
+    string acid = 1;
+}
+
+message DougaInfo {
+
+    message Channel {
+        string parentName = 1;
+        int32 parentID = 2;
+        string name = 3;
+        int32 ID = 4;
+    }
+
+    message Representation {
+        int32 ID = 1;
+        string URL = 2;
+        repeated string backupUrl = 3;
+        string m3u8Slice = 4;
+        int32 maxBitrate = 5;
+        int32 avgBitrate = 6;
+        string codecs = 7;
+        int32 width = 8;
+        int32 height = 9;
+        double frameRate = 10;
+        double quality = 11;
+        string qualityType = 12;
+        string qualityLabel = 13;
+        string comment = 14;
+        int32 hdrType = 15;
+    }
+
+    message Adaptationset {
+        int32 ID = 1;
+        int32 duration = 2;
+        repeated Representation representation = 3;
+    }
+
+    message Representation1 {
+        int32 ID = 1;
+        string URL = 2;
+        repeated string backupUrl = 3;
+        string m3u8Slice = 4;
+        int32 maxBitrate = 5;
+        int32 avgBitrate = 6;
+        string codecs = 7;
+        int32 width = 8;
+        int32 height = 9;
+        double frameRate = 10;
+        double quality = 11;
+        string qualityType = 12;
+        string qualityLabel = 13;
+        string comment = 14;
+        int32 hdrType = 15;
+    }
+
+    message Adaptationset1 {
+        int32 ID = 1;
+        int32 duration = 2;
+        repeated Representation1 representation = 3;
+    }
+
+    message Transcodeinfos {
+        string qualityType = 1;
+        int32 sizeInBytes = 2;
+        bool hdr = 3;
+    }
+
+    message Currentvideoinfo {
+        int32 priority = 1;
+        string ID = 2;
+        repeated Transcodeinfos transcodeInfos = 3;
+        bool isKsManifest = 4;
+        string title = 5;
+        string danmakuCountShow = 6;
+        int32 userPlayedSeconds = 7;
+        int32 sizeType = 8;
+        int32 danmakuGuidePosition = 9;
+        int32 sourceStatus = 10;
+        int32 durationMillis = 11;
+        int64 uploadTime = 12;
+        int32 visibleType = 13;
+        int32 danmakuCount = 14;
+        string fileName = 15;
+    }
+
+    message Cdnurls {
+        string URL = 1;
+        string freeTrafficProductAbbreviation = 2;
+        bool freeTrafficCdn = 3;
+    }
+
+    message Thumbnailimage {
+        repeated Cdnurls cdnUrls = 1;
+        int32 animated = 2;
+    }
+
+    message Cdnurls1 {
+        string URL = 1;
+        string freeTrafficProductAbbreviation = 2;
+        bool freeTrafficCdn = 3;
+    }
+
+    message Expandedimage {
+        repeated Cdnurls1 cdnUrls = 1;
+    }
+
+    message Coverimginfo {
+        int32 width = 1;
+        int32 height = 2;
+        int32 size = 3;
+        int32 type = 4;
+        bool animated = 5;
+        Thumbnailimage thumbnailImage = 6;
+        Expandedimage expandedImage = 7;
+        string ThumbnailImageCdnURL = 8;
+    }
+
+    message Recoreason {
+        string desc = 1;
+        string href = 2;
+        string tag = 3;
+        int32 layoutType = 4;
+        int32 descType = 5;
+        int32 type = 6;
+    }
+
+    message Videolist {
+        int32 priority = 1;
+        string title = 2;
+        string danmakuCountShow = 3;
+        int32 userPlayedSeconds = 4;
+        int32 sizeType = 5;
+        int32 danmakuGuidePosition = 6;
+        int32 sourceStatus = 7;
+        int32 durationMillis = 8;
+        int64 uploadTime = 9;
+        int32 visibleType = 10;
+        int32 danmakuCount = 11;
+        string fileName = 12;
+        string ID = 13;
+    }
+
+    message Covercdnurls {
+        string URL = 1;
+        bool freeTrafficCdn = 2;
+    }
+
+    message Taglist {
+        string name = 1;
+        string ID = 2;
+    }
+
+    message Headcdnurls {
+        string URL = 1;
+        bool freeTrafficCdn = 2;
+    }
+
+    message Socialmedal {
+    }
+
+    message Cdnurls2 {
+        string URL = 1;
+        string freeTrafficProductAbbreviation = 2;
+        bool freeTrafficCdn = 3;
+    }
+
+    message Thumbnailimage1 {
+        repeated Cdnurls2 cdnUrls = 1;
+        int32 animated = 2;
+    }
+
+    message Cdnurls3 {
+        string URL = 1;
+        string freeTrafficProductAbbreviation = 2;
+        bool freeTrafficCdn = 3;
+    }
+
+    message Expandedimage1 {
+        repeated Cdnurls3 cdnUrls = 1;
+    }
+
+    message Userheadimginfo {
+        int32 width = 1;
+        int32 height = 2;
+        int32 size = 3;
+        int32 type = 4;
+        bool animated = 5;
+        Thumbnailimage1 thumbnailImage = 6;
+        Expandedimage1 expandedImage = 7;
+        string ThumbnailImageCdnURL = 8;
+    }
+
+    message User {
+        int32 action = 1;
+        string href = 2;
+        repeated Headcdnurls headCdnUrls = 3;
+        bool isJoinUpCollege = 4;
+        int32 followingCountValue = 5;
+        int32 contributeCountValue = 6;
+        string fanCount = 7;
+        Socialmedal socialMedal = 8;
+        string avatarImage = 9;
+        Userheadimginfo userHeadImgInfo = 10;
+        bool isFollowed = 11;
+        bool isFollowing = 12;
+        int32 avatarFrame = 13;
+        string contributeCount = 14;
+        string avatarFramePcImg = 15;
+        string avatarFrameMobileImg = 16;
+        string nameStyle = 17;
+        int32 sexTrend = 18;
+        repeated int32 verifiedTypes = 19;
+        string HeadURL = 20;
+        int32 fanCountValue = 21;
+        int32 followingStatus = 22;
+        int32 nameColor = 23;
+        string followingCount = 24;
+        int32 gender = 25;
+        string name = 26;
+        string signature = 27;
+        string ID = 28;
+    }
+
+    int32 currentVideoID = 1;
+    double pctr = 2;
+    int32 commentCountRealValue = 3;
+    string groupID = 4;
+    string bananaCountShow = 5;
+    string stowCountShow = 6;
+    string giftPeachCountShow = 7;
+    int32 stowCount = 8;
+    Channel channel = 9;
+    int32 likeCount = 10;
+    bool hasHotComment = 11;
+    string shareCountShow = 12;
+    bool isDislike = 13;
+    int32 shareCount = 14;
+    string PicShareURL = 15;
+    int32 danmakuCount = 16;
+    Currentvideoinfo currentVideoInfo = 17;
+    string viewCountShow = 18;
+    string dougaID = 19;
+    string commentCountTenThousandShow = 20;
+    Coverimginfo coverImgInfo = 21;
+    int32 commentCount = 22;
+    string coverURL = 23;
+    bool disableEdit = 24;
+    uint64 createTimeMillis = 25;
+    bool superUbb = 26;
+    string shareURL = 27;
+    int32 status = 28;
+    bool isFavorite = 29;
+    bool isLike = 30;
+    Recoreason recoReason = 31;
+    string description = 32;
+    string title = 33;
+    bool belongToSpecifyArubamu = 34;
+    int32 result = 35;
+    int32 originalDeclare = 36;
+    repeated Videolist videoList = 37;
+    bool isThrowBanana = 38;
+    int32 viewCount = 39;
+    int32 bananaCount = 40;
+    string likeCountShow = 41;
+    repeated Covercdnurls coverCdnUrls = 42;
+    int32 giftPeachCount = 43;
+    bool isRewardSupportted = 44;
+    string commentCountShow = 45;
+    int32 durationMillis = 46;
+    int32 priority = 47;
+    repeated Taglist tagList = 48;
+    string danmakuCountShow = 49;
+    string createTime = 50;
+    User user = 51;
+    string mkey = 52;
+}
