@@ -97,6 +97,381 @@ func (c *ConverterImpl) ConvertItems(source []structs.DougaInfo) []protolib.Doug
 	}
 	return rpcprotoDougaInfoList
 }
+func (c *ConverterImpl) Revert(source protolib.DougaInfo) structs.DougaInfo {
+	var structsDougaInfo structs.DougaInfo
+	structsDougaInfo.CurrentVideoID = protolib.Int32ToInt(source.CurrentVideoID)
+	structsDougaInfo.Pctr = source.Pctr
+	structsDougaInfo.CommentCountRealValue = protolib.Int32ToInt(source.CommentCountRealValue)
+	structsDougaInfo.GroupID = source.GroupID
+	structsDougaInfo.StowCountShow = source.StowCountShow
+	structsDougaInfo.GiftPeachCountShow = source.GiftPeachCountShow
+	structsDougaInfo.Channel = protolib.ConvertEmptyChannel(source.Channel)
+	structsDougaInfo.LikeCount = protolib.Int32ToInt(source.LikeCount)
+	structsDougaInfo.HasHotComment = source.HasHotComment
+	structsDougaInfo.ShareCountShow = source.ShareCountShow
+	structsDougaInfo.IsDislike = source.IsDislike
+	structsDougaInfo.ShareCount = protolib.Int32ToInt(source.ShareCount)
+	structsDougaInfo.PicShareURL = source.PicShareURL
+	structsDougaInfo.DanmakuCount = protolib.Int32ToInt(source.DanmakuCount)
+	structsDougaInfo.CurrentVideoInfo = c.pRpcprotoDougaInfo_CurrentvideoinfoToStructsCurrentVideoInfo(source.CurrentVideoInfo)
+	structsDougaInfo.ViewCountShow = source.ViewCountShow
+	structsDougaInfo.DougaID = source.DougaID
+	structsDougaInfo.CommentCountTenThousandShow = source.CommentCountTenThousandShow
+	structsDougaInfo.CoverImgInfo = c.pRpcprotoDougaInfo_CoverimginfoToStructsCoverImgInfo(source.CoverImgInfo)
+	structsDougaInfo.CoverURL = source.CoverURL
+	structsDougaInfo.DisableEdit = source.DisableEdit
+	structsDougaInfo.CreateTimeMillis = source.CreateTimeMillis
+	structsDougaInfo.SuperUbb = source.SuperUbb
+	structsDougaInfo.ShareURL = source.ShareURL
+	structsDougaInfo.Status = protolib.Int32ToInt(source.Status)
+	structsDougaInfo.RecoReason = c.pRpcprotoDougaInfo_RecoreasonToStructsRecoReason(source.RecoReason)
+	structsDougaInfo.Description = source.Description
+	structsDougaInfo.BelongToSpecifyArubamu = source.BelongToSpecifyArubamu
+	structsDougaInfo.Result = protolib.Int32ToInt(source.Result)
+	structsDougaInfo.OriginalDeclare = protolib.Int32ToInt(source.OriginalDeclare)
+	var structsVideoListList []structs.VideoList
+	if source.VideoList != nil {
+		structsVideoListList = make([]structs.VideoList, len(source.VideoList))
+		for i := 0; i < len(source.VideoList); i++ {
+			structsVideoListList[i] = c.pRpcprotoDougaInfo_VideolistToStructsVideoList(source.VideoList[i])
+		}
+	}
+	structsDougaInfo.VideoList = structsVideoListList
+	structsDougaInfo.ViewCount = protolib.Int32ToInt(source.ViewCount)
+	structsDougaInfo.LikeCountShow = source.LikeCountShow
+	var structsCoverCdnUrlsList []structs.CoverCdnUrls
+	if source.CoverCdnUrls != nil {
+		structsCoverCdnUrlsList = make([]structs.CoverCdnUrls, len(source.CoverCdnUrls))
+		for j := 0; j < len(source.CoverCdnUrls); j++ {
+			structsCoverCdnUrlsList[j] = c.pRpcprotoDougaInfo_CovercdnurlsToStructsCoverCdnUrls(source.CoverCdnUrls[j])
+		}
+	}
+	structsDougaInfo.CoverCdnUrls = structsCoverCdnUrlsList
+	structsDougaInfo.GiftPeachCount = protolib.Int32ToInt(source.GiftPeachCount)
+	structsDougaInfo.IsRewardSupportted = source.IsRewardSupportted
+	structsDougaInfo.CommentCountShow = source.CommentCountShow
+	structsDougaInfo.DurationMillis = protolib.Int32ToInt(source.DurationMillis)
+	var structsTagListList []structs.TagList
+	if source.TagList != nil {
+		structsTagListList = make([]structs.TagList, len(source.TagList))
+		for k := 0; k < len(source.TagList); k++ {
+			structsTagListList[k] = c.pRpcprotoDougaInfo_TaglistToStructsTagList(source.TagList[k])
+		}
+	}
+	structsDougaInfo.TagList = structsTagListList
+	structsDougaInfo.DanmakuCountShow = source.DanmakuCountShow
+	structsDougaInfo.CreateTime = source.CreateTime
+	structsDougaInfo.User = c.pRpcprotoDougaInfo_UserToStructsUser(source.User)
+	structsDougaInfo.Priority = protolib.Int32ToInt(source.Priority)
+	return structsDougaInfo
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_Cdnurls1ToStructsCdnUrls(source *protolib.DougaInfo_Cdnurls1) structs.CdnUrls {
+	var structsCdnUrls structs.CdnUrls
+	if source != nil {
+		var structsCdnUrls2 structs.CdnUrls
+		structsCdnUrls2.URL = (*source).URL
+		structsCdnUrls2.FreeTrafficProductAbbreviation = (*source).FreeTrafficProductAbbreviation
+		structsCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsCdnUrls = structsCdnUrls2
+	}
+	return structsCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_Cdnurls2ToStructsCdnUrls(source *protolib.DougaInfo_Cdnurls2) structs.CdnUrls {
+	var structsCdnUrls structs.CdnUrls
+	if source != nil {
+		var structsCdnUrls2 structs.CdnUrls
+		structsCdnUrls2.URL = (*source).URL
+		structsCdnUrls2.FreeTrafficProductAbbreviation = (*source).FreeTrafficProductAbbreviation
+		structsCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsCdnUrls = structsCdnUrls2
+	}
+	return structsCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_Cdnurls3ToStructsCdnUrls(source *protolib.DougaInfo_Cdnurls3) structs.CdnUrls {
+	var structsCdnUrls structs.CdnUrls
+	if source != nil {
+		var structsCdnUrls2 structs.CdnUrls
+		structsCdnUrls2.URL = (*source).URL
+		structsCdnUrls2.FreeTrafficProductAbbreviation = (*source).FreeTrafficProductAbbreviation
+		structsCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsCdnUrls = structsCdnUrls2
+	}
+	return structsCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_CdnurlsToStructsCdnUrls(source *protolib.DougaInfo_Cdnurls) structs.CdnUrls {
+	var structsCdnUrls structs.CdnUrls
+	if source != nil {
+		var structsCdnUrls2 structs.CdnUrls
+		structsCdnUrls2.URL = (*source).URL
+		structsCdnUrls2.FreeTrafficProductAbbreviation = (*source).FreeTrafficProductAbbreviation
+		structsCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsCdnUrls = structsCdnUrls2
+	}
+	return structsCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_CovercdnurlsToStructsCoverCdnUrls(source *protolib.DougaInfo_Covercdnurls) structs.CoverCdnUrls {
+	var structsCoverCdnUrls structs.CoverCdnUrls
+	if source != nil {
+		var structsCoverCdnUrls2 structs.CoverCdnUrls
+		structsCoverCdnUrls2.URL = (*source).URL
+		structsCoverCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsCoverCdnUrls = structsCoverCdnUrls2
+	}
+	return structsCoverCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_CoverimginfoToStructsCoverImgInfo(source *protolib.DougaInfo_Coverimginfo) structs.CoverImgInfo {
+	var structsCoverImgInfo structs.CoverImgInfo
+	if source != nil {
+		var structsCoverImgInfo2 structs.CoverImgInfo
+		structsCoverImgInfo2.Width = protolib.Int32ToInt((*source).Width)
+		structsCoverImgInfo2.Height = protolib.Int32ToInt((*source).Height)
+		structsCoverImgInfo2.Size = protolib.Int32ToInt((*source).Size)
+		structsCoverImgInfo2.Type = protolib.Int32ToInt((*source).Type)
+		structsCoverImgInfo2.Animated = (*source).Animated
+		structsCoverImgInfo2.ThumbnailImage = c.pRpcprotoDougaInfo_ThumbnailimageToStructsThumbnailImage((*source).ThumbnailImage)
+		structsCoverImgInfo2.ExpandedImage = c.pRpcprotoDougaInfo_ExpandedimageToStructsExpandedImage((*source).ExpandedImage)
+		structsCoverImgInfo2.ThumbnailImageCdnURL = (*source).ThumbnailImageCdnURL
+		structsCoverImgInfo = structsCoverImgInfo2
+	}
+	return structsCoverImgInfo
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_CurrentvideoinfoToStructsCurrentVideoInfo(source *protolib.DougaInfo_Currentvideoinfo) structs.CurrentVideoInfo {
+	var structsCurrentVideoInfo structs.CurrentVideoInfo
+	if source != nil {
+		var structsCurrentVideoInfo2 structs.CurrentVideoInfo
+		structsCurrentVideoInfo2.Priority = protolib.Int32ToInt((*source).Priority)
+		structsCurrentVideoInfo2.Title = (*source).Title
+		structsCurrentVideoInfo2.DanmakuCountShow = (*source).DanmakuCountShow
+		structsCurrentVideoInfo2.UserPlayedSeconds = protolib.Int32ToInt((*source).UserPlayedSeconds)
+		structsCurrentVideoInfo2.SizeType = protolib.Int32ToInt((*source).SizeType)
+		structsCurrentVideoInfo2.DanmakuGuidePosition = protolib.Int32ToInt((*source).DanmakuGuidePosition)
+		structsCurrentVideoInfo2.SourceStatus = protolib.Int32ToInt((*source).SourceStatus)
+		structsCurrentVideoInfo2.DurationMillis = protolib.Int32ToInt((*source).DurationMillis)
+		structsCurrentVideoInfo2.UploadTime = (*source).UploadTime
+		structsCurrentVideoInfo2.VisibleType = protolib.Int32ToInt((*source).VisibleType)
+		structsCurrentVideoInfo2.DanmakuCount = protolib.Int32ToInt((*source).DanmakuCount)
+		structsCurrentVideoInfo2.FileName = (*source).FileName
+		structsCurrentVideoInfo2.IsKsManifest = (*source).IsKsManifest
+		var structsTranscodeInfosList []structs.TranscodeInfos
+		if (*source).TranscodeInfos != nil {
+			structsTranscodeInfosList = make([]structs.TranscodeInfos, len((*source).TranscodeInfos))
+			for i := 0; i < len((*source).TranscodeInfos); i++ {
+				structsTranscodeInfosList[i] = c.pRpcprotoDougaInfo_TranscodeinfosToStructsTranscodeInfos((*source).TranscodeInfos[i])
+			}
+		}
+		structsCurrentVideoInfo2.TranscodeInfos = structsTranscodeInfosList
+		structsCurrentVideoInfo2.ID = (*source).ID
+		structsCurrentVideoInfo = structsCurrentVideoInfo2
+	}
+	return structsCurrentVideoInfo
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_Expandedimage1ToStructsExpandedImage(source *protolib.DougaInfo_Expandedimage1) structs.ExpandedImage {
+	var structsExpandedImage structs.ExpandedImage
+	if source != nil {
+		var structsExpandedImage2 structs.ExpandedImage
+		var structsCdnUrlsList []structs.CdnUrls
+		if (*source).CdnUrls != nil {
+			structsCdnUrlsList = make([]structs.CdnUrls, len((*source).CdnUrls))
+			for i := 0; i < len((*source).CdnUrls); i++ {
+				structsCdnUrlsList[i] = c.pRpcprotoDougaInfo_Cdnurls3ToStructsCdnUrls((*source).CdnUrls[i])
+			}
+		}
+		structsExpandedImage2.CdnUrls = structsCdnUrlsList
+		structsExpandedImage = structsExpandedImage2
+	}
+	return structsExpandedImage
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_ExpandedimageToStructsExpandedImage(source *protolib.DougaInfo_Expandedimage) structs.ExpandedImage {
+	var structsExpandedImage structs.ExpandedImage
+	if source != nil {
+		var structsExpandedImage2 structs.ExpandedImage
+		var structsCdnUrlsList []structs.CdnUrls
+		if (*source).CdnUrls != nil {
+			structsCdnUrlsList = make([]structs.CdnUrls, len((*source).CdnUrls))
+			for i := 0; i < len((*source).CdnUrls); i++ {
+				structsCdnUrlsList[i] = c.pRpcprotoDougaInfo_Cdnurls1ToStructsCdnUrls((*source).CdnUrls[i])
+			}
+		}
+		structsExpandedImage2.CdnUrls = structsCdnUrlsList
+		structsExpandedImage = structsExpandedImage2
+	}
+	return structsExpandedImage
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_HeadcdnurlsToStructsHeadCdnUrls(source *protolib.DougaInfo_Headcdnurls) structs.HeadCdnUrls {
+	var structsHeadCdnUrls structs.HeadCdnUrls
+	if source != nil {
+		var structsHeadCdnUrls2 structs.HeadCdnUrls
+		structsHeadCdnUrls2.URL = (*source).URL
+		structsHeadCdnUrls2.FreeTrafficCdn = (*source).FreeTrafficCdn
+		structsHeadCdnUrls = structsHeadCdnUrls2
+	}
+	return structsHeadCdnUrls
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_RecoreasonToStructsRecoReason(source *protolib.DougaInfo_Recoreason) structs.RecoReason {
+	var structsRecoReason structs.RecoReason
+	if source != nil {
+		var structsRecoReason2 structs.RecoReason
+		structsRecoReason2.Desc = (*source).Desc
+		structsRecoReason2.Href = (*source).Href
+		structsRecoReason2.Tag = (*source).Tag
+		structsRecoReason2.LayoutType = protolib.Int32ToInt((*source).LayoutType)
+		structsRecoReason2.DescType = protolib.Int32ToInt((*source).DescType)
+		structsRecoReason2.Type = protolib.Int32ToInt((*source).Type)
+		structsRecoReason = structsRecoReason2
+	}
+	return structsRecoReason
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_SocialmedalToStructsSocialMedal(source *protolib.DougaInfo_Socialmedal) structs.SocialMedal {
+	var structsSocialMedal structs.SocialMedal
+	if source != nil {
+		var structsSocialMedal2 structs.SocialMedal
+		_ = (*source)
+		structsSocialMedal = structsSocialMedal2
+	}
+	return structsSocialMedal
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_TaglistToStructsTagList(source *protolib.DougaInfo_Taglist) structs.TagList {
+	var structsTagList structs.TagList
+	if source != nil {
+		var structsTagList2 structs.TagList
+		structsTagList2.Name = (*source).Name
+		structsTagList2.ID = (*source).ID
+		structsTagList = structsTagList2
+	}
+	return structsTagList
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_Thumbnailimage1ToStructsThumbnailImage(source *protolib.DougaInfo_Thumbnailimage1) structs.ThumbnailImage {
+	var structsThumbnailImage structs.ThumbnailImage
+	if source != nil {
+		var structsThumbnailImage2 structs.ThumbnailImage
+		var structsCdnUrlsList []structs.CdnUrls
+		if (*source).CdnUrls != nil {
+			structsCdnUrlsList = make([]structs.CdnUrls, len((*source).CdnUrls))
+			for i := 0; i < len((*source).CdnUrls); i++ {
+				structsCdnUrlsList[i] = c.pRpcprotoDougaInfo_Cdnurls2ToStructsCdnUrls((*source).CdnUrls[i])
+			}
+		}
+		structsThumbnailImage2.CdnUrls = structsCdnUrlsList
+		structsThumbnailImage2.Animated = protolib.Int32ToInt((*source).Animated)
+		structsThumbnailImage = structsThumbnailImage2
+	}
+	return structsThumbnailImage
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_ThumbnailimageToStructsThumbnailImage(source *protolib.DougaInfo_Thumbnailimage) structs.ThumbnailImage {
+	var structsThumbnailImage structs.ThumbnailImage
+	if source != nil {
+		var structsThumbnailImage2 structs.ThumbnailImage
+		var structsCdnUrlsList []structs.CdnUrls
+		if (*source).CdnUrls != nil {
+			structsCdnUrlsList = make([]structs.CdnUrls, len((*source).CdnUrls))
+			for i := 0; i < len((*source).CdnUrls); i++ {
+				structsCdnUrlsList[i] = c.pRpcprotoDougaInfo_CdnurlsToStructsCdnUrls((*source).CdnUrls[i])
+			}
+		}
+		structsThumbnailImage2.CdnUrls = structsCdnUrlsList
+		structsThumbnailImage2.Animated = protolib.Int32ToInt((*source).Animated)
+		structsThumbnailImage = structsThumbnailImage2
+	}
+	return structsThumbnailImage
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_TranscodeinfosToStructsTranscodeInfos(source *protolib.DougaInfo_Transcodeinfos) structs.TranscodeInfos {
+	var structsTranscodeInfos structs.TranscodeInfos
+	if source != nil {
+		var structsTranscodeInfos2 structs.TranscodeInfos
+		structsTranscodeInfos2.QualityType = (*source).QualityType
+		structsTranscodeInfos2.SizeInBytes = protolib.Int32ToInt((*source).SizeInBytes)
+		structsTranscodeInfos2.Hdr = (*source).Hdr
+		structsTranscodeInfos = structsTranscodeInfos2
+	}
+	return structsTranscodeInfos
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_UserToStructsUser(source *protolib.DougaInfo_User) structs.User {
+	var structsUser structs.User
+	if source != nil {
+		var structsUser2 structs.User
+		structsUser2.Action = protolib.Int32ToInt((*source).Action)
+		structsUser2.Href = (*source).Href
+		var structsHeadCdnUrlsList []structs.HeadCdnUrls
+		if (*source).HeadCdnUrls != nil {
+			structsHeadCdnUrlsList = make([]structs.HeadCdnUrls, len((*source).HeadCdnUrls))
+			for i := 0; i < len((*source).HeadCdnUrls); i++ {
+				structsHeadCdnUrlsList[i] = c.pRpcprotoDougaInfo_HeadcdnurlsToStructsHeadCdnUrls((*source).HeadCdnUrls[i])
+			}
+		}
+		structsUser2.HeadCdnUrls = structsHeadCdnUrlsList
+		structsUser2.IsJoinUpCollege = (*source).IsJoinUpCollege
+		structsUser2.FollowingCountValue = protolib.Int32ToInt((*source).FollowingCountValue)
+		structsUser2.ContributeCountValue = protolib.Int32ToInt((*source).ContributeCountValue)
+		structsUser2.FanCount = (*source).FanCount
+		structsUser2.SocialMedal = c.pRpcprotoDougaInfo_SocialmedalToStructsSocialMedal((*source).SocialMedal)
+		structsUser2.AvatarImage = (*source).AvatarImage
+		structsUser2.UserHeadImgInfo = c.pRpcprotoDougaInfo_UserheadimginfoToStructsUserHeadImgInfo((*source).UserHeadImgInfo)
+		structsUser2.IsFollowed = (*source).IsFollowed
+		structsUser2.IsFollowing = (*source).IsFollowing
+		structsUser2.AvatarFrame = protolib.Int32ToInt((*source).AvatarFrame)
+		structsUser2.ContributeCount = (*source).ContributeCount
+		structsUser2.AvatarFramePcImg = (*source).AvatarFramePcImg
+		structsUser2.AvatarFrameMobileImg = (*source).AvatarFrameMobileImg
+		structsUser2.SexTrend = protolib.Int32ToInt((*source).SexTrend)
+		var intList []int
+		if (*source).VerifiedTypes != nil {
+			intList = make([]int, len((*source).VerifiedTypes))
+			for j := 0; j < len((*source).VerifiedTypes); j++ {
+				intList[j] = protolib.Int32ToInt((*source).VerifiedTypes[j])
+			}
+		}
+		structsUser2.VerifiedTypes = intList
+		structsUser2.HeadURL = (*source).HeadURL
+		structsUser2.FanCountValue = protolib.Int32ToInt((*source).FanCountValue)
+		structsUser2.FollowingStatus = protolib.Int32ToInt((*source).FollowingStatus)
+		structsUser2.NameColor = protolib.Int32ToInt((*source).NameColor)
+		structsUser2.FollowingCount = (*source).FollowingCount
+		structsUser2.Gender = protolib.Int32ToInt((*source).Gender)
+		structsUser2.Name = (*source).Name
+		structsUser2.Signature = (*source).Signature
+		structsUser2.ID = (*source).ID
+		structsUser2.NameStyle = (*source).NameStyle
+		structsUser = structsUser2
+	}
+	return structsUser
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_UserheadimginfoToStructsUserHeadImgInfo(source *protolib.DougaInfo_Userheadimginfo) structs.UserHeadImgInfo {
+	var structsUserHeadImgInfo structs.UserHeadImgInfo
+	if source != nil {
+		var structsUserHeadImgInfo2 structs.UserHeadImgInfo
+		structsUserHeadImgInfo2.Width = protolib.Int32ToInt((*source).Width)
+		structsUserHeadImgInfo2.Height = protolib.Int32ToInt((*source).Height)
+		structsUserHeadImgInfo2.Size = protolib.Int32ToInt((*source).Size)
+		structsUserHeadImgInfo2.Type = protolib.Int32ToInt((*source).Type)
+		structsUserHeadImgInfo2.Animated = (*source).Animated
+		structsUserHeadImgInfo2.ThumbnailImage = c.pRpcprotoDougaInfo_Thumbnailimage1ToStructsThumbnailImage((*source).ThumbnailImage)
+		structsUserHeadImgInfo2.ExpandedImage = c.pRpcprotoDougaInfo_Expandedimage1ToStructsExpandedImage((*source).ExpandedImage)
+		structsUserHeadImgInfo2.ThumbnailImageCdnURL = (*source).ThumbnailImageCdnURL
+		structsUserHeadImgInfo = structsUserHeadImgInfo2
+	}
+	return structsUserHeadImgInfo
+}
+func (c *ConverterImpl) pRpcprotoDougaInfo_VideolistToStructsVideoList(source *protolib.DougaInfo_Videolist) structs.VideoList {
+	var structsVideoList structs.VideoList
+	if source != nil {
+		var structsVideoList2 structs.VideoList
+		structsVideoList2.Priority = protolib.Int32ToInt((*source).Priority)
+		structsVideoList2.Title = (*source).Title
+		structsVideoList2.DanmakuCountShow = (*source).DanmakuCountShow
+		structsVideoList2.UserPlayedSeconds = protolib.Int32ToInt((*source).UserPlayedSeconds)
+		structsVideoList2.SizeType = protolib.Int32ToInt((*source).SizeType)
+		structsVideoList2.DanmakuGuidePosition = protolib.Int32ToInt((*source).DanmakuGuidePosition)
+		structsVideoList2.SourceStatus = protolib.Int32ToInt((*source).SourceStatus)
+		structsVideoList2.DurationMillis = protolib.Int32ToInt((*source).DurationMillis)
+		structsVideoList2.UploadTime = (*source).UploadTime
+		structsVideoList2.VisibleType = protolib.Int32ToInt((*source).VisibleType)
+		structsVideoList2.DanmakuCount = protolib.Int32ToInt((*source).DanmakuCount)
+		structsVideoList2.FileName = (*source).FileName
+		structsVideoList2.ID = (*source).ID
+		structsVideoList = structsVideoList2
+	}
+	return structsVideoList
+}
 func (c *ConverterImpl) structsCdnUrlsToPRpcprotoDougaInfo_Cdnurls(source structs.CdnUrls) *protolib.DougaInfo_Cdnurls {
 	var rpcprotoDougaInfo_Cdnurls protolib.DougaInfo_Cdnurls
 	rpcprotoDougaInfo_Cdnurls.URL = source.URL
