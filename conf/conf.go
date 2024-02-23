@@ -13,6 +13,7 @@ type CommenConf struct {
 type SvrConf struct {
 	Address string
 	Port    string
+	RPCPort string
 	Mode    string
 }
 

@@ -4,6 +4,7 @@ LogLevel = "info"
 [Server]
 Address = "127.0.0.1"
 Port = "8094"
+RPCPort = "8095"
 Mode = "release"
 
 [Cache]
@@ -13,5 +14,5 @@ Host = "173.16.23.5"
 Port = "6379"
 Prefix = "acfun-dougaInfo/"
 UserName = ""
-Password  = ""
-ExpireDuration   = 60
+Password = ""
+ExpireDuration = 60

@@ -30,7 +30,7 @@ func (me *server) GetDougaInfo(ctx context.Context, in *rpcproto.Acid) (*rpcprot
 }
 
 func Start() {
-	lis, err := net.Listen("tcp", conf.Conf.Server.Address+":"+conf.Conf.Server.Port)
+	lis, err := net.Listen("tcp", conf.Conf.Server.Address+":"+conf.Conf.Server.RPCPort)
 	if err != nil {
 		slog.Error("failed to listen: ", err)
 	}
