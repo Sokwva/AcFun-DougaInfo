@@ -59,6 +59,10 @@ type DougaInfo struct {
 	User                        User             `json:"user"`
 	Priority                    int              `json:"priority"`
 }
+type DougaInfoRaw struct {
+	DougaInfo
+	VideoList []VideoListRaw `json:"videoList"`
+}
 
 type BangumiInfo struct {
 	DougaBaseInfo
@@ -216,6 +220,10 @@ type VideoList struct {
 	DanmakuCount         int    `json:"danmakuCount"`
 	FileName             string `json:"fileName"`
 	ID                   string `json:"id"`
+}
+type VideoListRaw struct {
+	VideoList
+	UploadTime interface{} `json:"uploadTime"`
 }
 type CoverCdnUrls struct {
 	URL            string `json:"url"`

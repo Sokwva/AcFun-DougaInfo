@@ -21,6 +21,9 @@ type server struct {
 func (me *server) GetDougaInfo(ctx context.Context, in *rpcproto.Acid) (*rpcproto.DougaInfo, error) {
 	fmt.Println(in.Acid)
 	x, err := fetch.GetVideoInfo(in.Acid)
+	if err != nil {
+		return nil, err
+	}
 	var converter generated.ConverterImpl
 	convtRes := converter.Convert(*x)
 	if err != nil {

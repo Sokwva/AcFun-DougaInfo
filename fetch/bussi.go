@@ -3,6 +3,7 @@ package fetch
 import (
 	"encoding/json"
 	"errors"
+	"reflect"
 	"sokwva/acfun/dougaInfo/structs"
 	"strconv"
 	"strings"
@@ -82,8 +83,9 @@ func GetVideoInfo(acid string) (*structs.DougaInfo, error) {
 	if err != nil {
 		return nil, err
 	}
-	resultStruct := &structs.DougaInfo{}
-	err = preprocess(result, resultStruct, "video")
+	resultStructRaw := &structs.DougaInfoRaw{}
+	err = preprocess(result, resultStructRaw, "video")
+	resultStruct := FixVideoListUploadTimeType(resultStructRaw)
 	return resultStruct, err
 }
 
@@ -126,4 +128,23 @@ func GetUserVideoDouga(userId string, page uint, pageSize uint) (*[]structs.Doug
 		videoList = append(videoList, *result)
 	})
 	return &videoList, nil
+}
+
+func FixVideoListUploadTimeType(x *structs.DougaInfoRaw) *structs.DougaInfo {
+	result := &structs.DougaInfo{}
+	result = &x.DougaInfo
+	if vType := reflect.TypeOf(x.CurrentVideoInfo.UploadTime); vType.String() == "string" {
+		for _, v := range x.VideoList {
+			c, ok := v.UploadTime.(string)
+			if !ok {
+				continue
+			}
+			t, err := strconv.ParseInt(c, 10, 64)
+			if err != nil {
+				continue
+			}
+			v.UploadTime = t
+		}
+	}
+	return result
 }
