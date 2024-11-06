@@ -36,6 +36,26 @@ type MainConf struct {
 
 func InitConfDriver() {
 	if _, err := toml.DecodeFile("./conf.toml", &Conf); err != nil {
-		panic(err)
+		GetEnv()
+		Conf = MainConf{
+			Server: SvrConf{
+				Address: envs.IP,
+				Port:    envs.Port,
+				RPCPort: envs.RPCPort,
+				Mode:    envs.Mode,
+			},
+			Common: CommenConf{
+				LogLevel: "info",
+			},
+			Cache: CacheConf{
+				Enable:         false,
+				ServerType:     "",
+				Host:           "",
+				Port:           "",
+				UserName:       "",
+				Prefix:         "",
+				ExpireDuration: 1,
+			},
+		}
 	}
 }
